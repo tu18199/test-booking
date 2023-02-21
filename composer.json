@@ -23,7 +23,7 @@
         "laravel/framework": "^7.0",
         "laravel/sanctum": "^2.1",
         "laravel/tinker": "^2.0",
-        "mongodb/mongodb": "^1.15",
+        "mongodb/mongodb": "^1.4",
         "mostafamaklad/laravel-permission-mongodb": "^3.1",
         "phpoffice/phpspreadsheet": "^1.22",
         "spatie/laravel-permission": "^3.0"

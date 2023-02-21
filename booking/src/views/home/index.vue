@@ -31,12 +31,12 @@
                     class="image-1"
                     src="assets/img/banner/hr1.jpg"
                     alt="hr"
-                  />
+                  >
                   <img
                     class="image-2"
                     src="assets/img/banner/hr5.jpg"
                     alt="htr"
-                  />
+                  >
                 </div>
               </div>
             </div>
@@ -44,7 +44,8 @@
         </div>
         <div
           class="silder-single silder-single-img"
-          style="background: url('assets/img/banner/sl2.jpg')">
+          style="background: url('assets/img/banner/sl2.jpg')"
+        >
           <div class="container">
             <div class="row">
               <div class="col-lg-7 col-md-12 col-sm-12">
@@ -70,12 +71,12 @@
                     class="image-1"
                     src="assets/img/banner/hr1.jpg"
                     alt="hr"
-                  />
+                  >
                   <img
                     class="image-2"
                     src="assets/img/banner/hr3.jpg"
                     alt="htr"
-                  />
+                  >
                 </div>
               </div>
             </div>
@@ -110,12 +111,12 @@
                     class="image-1"
                     src="assets/img/banner/hr2.jpg"
                     alt="hr"
-                  />
+                  >
                   <img
                     class="image-2"
                     src="assets/img/banner/hr3.jpg"
                     alt="htr"
-                  />
+                  >
                 </div>
               </div>
             </div>
@@ -137,7 +138,7 @@
           <div class="col-lg-12">
             <div class="call-now">
               <h4>Any Have a Quesitons</h4>
-              <h3>+7645242368</h3>
+              <h3>+0972053951 ádasd</h3>
               <div class="button-bar pt-20">
                 <a href="#" class="btn btn-lg btn-1">
                   <span>Make A Call</span>
@@ -166,8 +167,8 @@
           </div>
           <div class="col-xl-6 col-lg-6 col-md-6 align-self-center">
             <div class="subscribe">
-              <input type="search" placeholder="Enter Email" />
-              <input type="submit" value="subscribe" />
+              <input type="search" placeholder="Enter Email">
+              <input type="submit" value="subscribe">
             </div>
           </div>
         </div>
@@ -176,7 +177,7 @@
   </div>
 </template>
 
-<script>
+<!-- <script>
 import Product from './components/product.vue'
 import ProductResource from '@/api/product.js'
 import MenuResource from '@/api/menu.js'
@@ -219,4 +220,4 @@ export default {
     }
   }
 }
-</script>
+</script> -->
