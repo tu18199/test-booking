@@ -129,10 +129,6 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
             'Laravel\\Tinker\\' => 15,
             'Laravel\\Sanctum\\' => 16,
         ),
-        'J' => 
-        array (
-            'Jean85\\' => 7,
-        ),
         'I' => 
         array (
             'Illuminate\\' => 11,
@@ -407,10 +403,6 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         array (
             0 => __DIR__ . '/..' . '/laravel/sanctum/src',
         ),
-        'Jean85\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jean85/pretty-package-versions/src',
-        ),
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
@@ -598,6 +590,7 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\CarbonPeriod' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonPeriod.php',
+        'Carbon\\CarbonPeriodImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonPeriodImmutable.php',
         'Carbon\\CarbonTimeZone' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonTimeZone.php',
         'Carbon\\Cli\\Invoker' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Cli/Invoker.php',
         'Carbon\\Doctrine\\CarbonDoctrineType' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Doctrine/CarbonDoctrineType.php',
@@ -640,6 +633,7 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'Carbon\\FactoryImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/FactoryImmutable.php',
         'Carbon\\Language' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Language.php',
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
+        'Carbon\\MessageFormatter\\MessageFormatterMapper' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/MessageFormatter/MessageFormatterMapper.php',
         'Carbon\\PHPStan\\AbstractMacro' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php',
         'Carbon\\PHPStan\\Macro' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/PHPStan/Macro.php',
         'Carbon\\PHPStan\\MacroExtension' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php',
@@ -2706,11 +2700,6 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
-        'Jean85\\Exception\\ProvidedPackageException' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Exception/ProvidedPackageException.php',
-        'Jean85\\Exception\\ReplacedPackageException' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Exception/ReplacedPackageException.php',
-        'Jean85\\Exception\\VersionMissingExceptionInterface' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Exception/VersionMissingExceptionInterface.php',
-        'Jean85\\PrettyVersions' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/PrettyVersions.php',
-        'Jean85\\Version' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Version.php',
         'Jenssegers\\Mongodb\\Auth\\DatabaseTokenRepository' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Jenssegers/Mongodb/Auth/DatabaseTokenRepository.php',
         'Jenssegers\\Mongodb\\Auth\\PasswordBrokerManager' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Jenssegers/Mongodb/Auth/PasswordBrokerManager.php',
         'Jenssegers\\Mongodb\\Auth\\PasswordResetServiceProvider' => __DIR__ . '/..' . '/jenssegers/mongodb/src/Jenssegers/Mongodb/Auth/PasswordResetServiceProvider.php',
@@ -3176,8 +3165,6 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'MongoDB\\ChangeStream' => __DIR__ . '/..' . '/mongodb/mongodb/src/ChangeStream.php',
         'MongoDB\\Client' => __DIR__ . '/..' . '/mongodb/mongodb/src/Client.php',
         'MongoDB\\Collection' => __DIR__ . '/..' . '/mongodb/mongodb/src/Collection.php',
-        'MongoDB\\Command\\ListCollections' => __DIR__ . '/..' . '/mongodb/mongodb/src/Command/ListCollections.php',
-        'MongoDB\\Command\\ListDatabases' => __DIR__ . '/..' . '/mongodb/mongodb/src/Command/ListDatabases.php',
         'MongoDB\\Database' => __DIR__ . '/..' . '/mongodb/mongodb/src/Database.php',
         'MongoDB\\DeleteResult' => __DIR__ . '/..' . '/mongodb/mongodb/src/DeleteResult.php',
         'MongoDB\\Exception\\BadMethodCallException' => __DIR__ . '/..' . '/mongodb/mongodb/src/Exception/BadMethodCallException.php',
@@ -3191,7 +3178,6 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'MongoDB\\GridFS\\CollectionWrapper' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/CollectionWrapper.php',
         'MongoDB\\GridFS\\Exception\\CorruptFileException' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/Exception/CorruptFileException.php',
         'MongoDB\\GridFS\\Exception\\FileNotFoundException' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/Exception/FileNotFoundException.php',
-        'MongoDB\\GridFS\\Exception\\StreamException' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/Exception/StreamException.php',
         'MongoDB\\GridFS\\ReadableStream' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/ReadableStream.php',
         'MongoDB\\GridFS\\StreamWrapper' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/StreamWrapper.php',
         'MongoDB\\GridFS\\WritableStream' => __DIR__ . '/..' . '/mongodb/mongodb/src/GridFS/WritableStream.php',
@@ -3202,7 +3188,6 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'MongoDB\\Model\\BSONDocument' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/BSONDocument.php',
         'MongoDB\\Model\\BSONIterator' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/BSONIterator.php',
         'MongoDB\\Model\\CachingIterator' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/CachingIterator.php',
-        'MongoDB\\Model\\CallbackIterator' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/CallbackIterator.php',
         'MongoDB\\Model\\ChangeStreamIterator' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/ChangeStreamIterator.php',
         'MongoDB\\Model\\CollectionInfo' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/CollectionInfo.php',
         'MongoDB\\Model\\CollectionInfoCommandIterator' => __DIR__ . '/..' . '/mongodb/mongodb/src/Model/CollectionInfoCommandIterator.php',
@@ -3240,14 +3225,11 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'MongoDB\\Operation\\FindOneAndUpdate' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/FindOneAndUpdate.php',
         'MongoDB\\Operation\\InsertMany' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/InsertMany.php',
         'MongoDB\\Operation\\InsertOne' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/InsertOne.php',
-        'MongoDB\\Operation\\ListCollectionNames' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ListCollectionNames.php',
         'MongoDB\\Operation\\ListCollections' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ListCollections.php',
-        'MongoDB\\Operation\\ListDatabaseNames' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ListDatabaseNames.php',
         'MongoDB\\Operation\\ListDatabases' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ListDatabases.php',
         'MongoDB\\Operation\\ListIndexes' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ListIndexes.php',
         'MongoDB\\Operation\\MapReduce' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/MapReduce.php',
         'MongoDB\\Operation\\ModifyCollection' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ModifyCollection.php',
-        'MongoDB\\Operation\\RenameCollection' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/RenameCollection.php',
         'MongoDB\\Operation\\ReplaceOne' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/ReplaceOne.php',
         'MongoDB\\Operation\\Update' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/Update.php',
         'MongoDB\\Operation\\UpdateMany' => __DIR__ . '/..' . '/mongodb/mongodb/src/Operation/UpdateMany.php',
@@ -4404,6 +4386,7 @@ class ComposerStaticInit38926c083b21ec76599a5f9432617bbe
         'PhpParser\\Lexer\\TokenEmulator\\MatchTokenEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/MatchTokenEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\NullsafeTokenEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NullsafeTokenEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\NumericLiteralSeparatorEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php',
+        'PhpParser\\Lexer\\TokenEmulator\\ReadonlyFunctionTokenEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReadonlyFunctionTokenEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\ReadonlyTokenEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReadonlyTokenEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\ReverseEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReverseEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\TokenEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/TokenEmulator.php',

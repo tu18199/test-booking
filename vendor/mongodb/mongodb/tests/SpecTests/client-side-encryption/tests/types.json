@@ -106,6 +106,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -128,7 +140,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -245,6 +257,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -267,7 +291,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -384,6 +408,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -406,7 +442,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -504,7 +540,7 @@
             }
           },
           "result": {
-            "errorContains": "element of type: double"
+            "errorContains": "Cannot use deterministic encryption for element of type: double"
           }
         }
       ]
@@ -551,7 +587,7 @@
             }
           },
           "result": {
-            "errorContains": "element of type: decimal"
+            "errorContains": "Cannot use deterministic encryption for element of type: decimal"
           }
         }
       ]
@@ -623,6 +659,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -645,7 +693,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -762,6 +810,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -784,7 +844,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -883,7 +943,7 @@
             }
           },
           "result": {
-            "errorContains": "element of type: javascriptWithScope"
+            "errorContains": "Cannot use deterministic encryption for element of type: javascriptWithScope"
           }
         }
       ]
@@ -928,7 +988,7 @@
             }
           },
           "result": {
-            "errorContains": "element of type: object"
+            "errorContains": "Cannot use deterministic encryption for element of type: object"
           }
         }
       ]
@@ -1000,6 +1060,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -1022,7 +1094,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -1145,6 +1217,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -1167,7 +1251,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -1288,6 +1372,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -1310,7 +1406,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
@@ -1547,7 +1643,7 @@
             }
           },
           "result": {
-            "errorContains": "element of type: array"
+            "errorContains": "Cannot use deterministic encryption for element of type: array"
           }
         }
       ]
@@ -1592,7 +1688,7 @@
             }
           },
           "result": {
-            "errorContains": "element of type: bool"
+            "errorContains": "Cannot use deterministic encryption for element of type: bool"
           }
         }
       ]

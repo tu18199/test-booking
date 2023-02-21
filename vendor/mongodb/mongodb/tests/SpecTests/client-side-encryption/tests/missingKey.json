@@ -102,7 +102,7 @@
       "description": "Insert with encryption on a missing key",
       "clientOptions": {
         "autoEncryptOpts": {
-          "keyVaultNamespace": "keyvault.different",
+          "keyVaultNamespace": "admin.different",
           "kmsProviders": {
             "aws": {}
           }
@@ -143,6 +143,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "different"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "different",
               "filter": {
                 "$or": [
@@ -165,7 +177,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }

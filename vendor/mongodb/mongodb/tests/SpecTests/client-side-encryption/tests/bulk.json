@@ -181,6 +181,18 @@
         {
           "command_started_event": {
             "command": {
+              "listCollections": 1,
+              "filter": {
+                "name": "datakeys"
+              },
+              "$db": "admin"
+            },
+            "command_name": "listCollections"
+          }
+        },
+        {
+          "command_started_event": {
+            "command": {
               "find": "datakeys",
               "filter": {
                 "$or": [
@@ -203,7 +215,7 @@
                   }
                 ]
               },
-              "$db": "keyvault",
+              "$db": "admin",
               "readConcern": {
                 "level": "majority"
               }
